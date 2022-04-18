@@ -1,0 +1,34 @@
+@use "libs/bootstrap-reboot.min";
+@use "libs/fonts";
+@use "blocks/promo";
+@use "blocks/header";
+@use "blocks/about";
+@use "blocks/how";
+@use "blocks/categories";
+@use "blocks/footer";
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: #eeeeee;
+}
+
+.container {
+  width: 1152px;
+  margin: 0 auto;
+  padding: 120px 100px 0;
+  background: white;
+}
+
+
+.btn {
+  background: #DAA520;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  border: none;
+}

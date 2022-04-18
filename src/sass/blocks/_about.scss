@@ -1,0 +1,76 @@
+.about {
+  .container {
+    padding-right: 0;
+    padding-left: 100px;
+  }
+
+  &__title {
+    &-wrapper {
+      margin-right: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-intro {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 49px;
+      color: #3E3F43;
+    }
+
+    &-main {
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 98px;
+      text-align: right;
+      color: rgba(34, 34, 34, 0.1);
+    }
+  }
+
+  &__card {
+    &-image {
+      &-container {
+        background: left no-repeat url("../../img/bgs/Rectangle2.png");
+        width: 426px;
+        height: 388px;
+        display: flex;
+        padding-top: 82px;
+        padding-left: 36px;
+      }
+    }
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    &-text {
+      &-wrapper {
+        &.main {
+          margin-right: 100px;
+          margin-left: 78px;
+        }
+
+        &.secondary {
+          margin-right: 112px;
+        }
+      }
+
+      &_main {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 49px;
+        color: #3E3F43;
+      }
+
+      &_sub {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: #000000;
+      }
+    }
+  }
+}
